@@ -3,6 +3,74 @@
 Basics to Advanced C programming course for HackHarbor 2.0
 
 <!-- Content goes here -->
+## Day-wise Syllabus
+[**Day 1** - Introduction to C Programming](<Day 1.md>)  
+
+Overview of C and it's applications  
+* Setting Up the Environment: Installing GCC and VSCode  
+* Basic Syntax and Structure  
+* Writing and running the first program ("Hello, World!")
+* Variables and Data Types: Integers, floats, characters, and basic I/O functions
+* Operators and Expressions: 
+    * Arithmetic Operators: Addition, subtraction, multiplication, division, modulus
+    * Relational and Logical Operators
+    * Increment and Decrement Operators
+    * Assignment Operators
+    * Type Casting and Type Conversion
+
+[**Day 2** - Control Structures and variable scope ](<Day 2.md>)  
+
+Conditional Statements and Loops
+* Conditional Statements: if, else if, else, switch statements  
+* Loops: for, while, do-while loops
+* Scope and Lifetime of Variables
+
+[**Day 3** - Functions ](<Day 3.md>)  
+
+* Function Basics: Definition, declaration, and calling functions
+* Parameters and Return Values
+* Scope and Lifetime of Variables
+* Recursive Functions
+
+[**Day 4 and 5** - Arrays, Strings and Pointers (Introduction) ](<Day 4_5.md>)  
+
+* Function Basics: Definition, declaration, and calling functions
+* Parameters and Return Values
+* Scope and Lifetime of Variables
+* Recursive Functions
+
+[**Day 6** - Structures and Unions ](<Day 6.md>)  
+
+* Structures: Definition, declaration, and accessing members
+* Array of Structures
+* Nested Structures
+* Unions: Definition, declaration, and accessing members
+* Difference between Structures and Unions
+
+[**Day 7** - File Handling ](<Day 7.md>)  
+
+* File Operations: Opening, reading, writing, and closing files
+* File Modes: Text and binary modes
+* Error Handling in File Operations
+* Standard Library Functions for File Handling
+
+[**Day 8** - Pointers ](<Day 8.md>)  
+
+* Dynamic Memory Allocation: malloc, calloc, realloc, free
+* Pointer Arithmetic
+* Pointer to pointer
+
+[**Day 9** - Basic Data Structures (Stacks and Queues)](<Day 9.md>)  
+
+* Stacks: Implementation using arrays and linked lists, push and pop operations
+* Queues: Implementation using arrays and linked lists, enqueue and dequeue operations
+* Circular Queue: Implementation and operations
+
+[**Day 10** - Linked Lists](<Day 10.md>)  
+
+* Singly Linked Lists: Implementation, insertion, deletion, and traversal
+* Doubly Linked Lists: Implementation, insertion, deletion, and traversal
+* Circular Linked Lists: Implementation, insertion, deletion, and traversal
 
 ## Todo
 

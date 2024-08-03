@@ -18,12 +18,11 @@ Overview of C and it's applications
     * Assignment Operators
     * Type Casting and Type Conversion
 
-[**Day 2** - Control Structures and variable scope ](<Day 2.md>)  
+[**Day 2** - Control Structures](<Day 2.md>)  
 
 Conditional Statements and Loops
 * Conditional Statements: if, else if, else, switch statements  
 * Loops: for, while, do-while loops
-* Scope and Lifetime of Variables
 
 [**Day 3** - Functions ](<Day 3.md>)  
 
@@ -32,14 +31,28 @@ Conditional Statements and Loops
 * Scope and Lifetime of Variables
 * Recursive Functions
 
-[**Day 4 and 5** - Arrays, Strings and Pointers (Introduction) ](<Day 4_5.md>)  
+[**Day 4** - Arrays](<Day 4.md>)  
 
-* Function Basics: Definition, declaration, and calling functions
-* Parameters and Return Values
-* Scope and Lifetime of Variables
-* Recursive Functions
+* Introduction to Arrays: creating arrays, accessing elements, and basic operations
+    * One-Dimentional Arrays
+    * Two-Dimentional Arrays
 
-[**Day 6** - Structures and Unions ](<Day 6.md>)  
+
+[**Day 5** - Strings and Pointers ](<Day 5.md>)  
+
+* Strings in C: String handling functions, array of characters, and standard library functions (strlen, strcpy, strcmp, etc.)
+* Pointers: Definition, declaration, usage and pointer arithmetic
+
+[**Day 6** - Dynamic Memory Allocation ](<Day 8.md>)  
+* Difference between static and dynamic memory allocation
+* Dynamic Memory Allocation Functions:
+    * malloc() - memory allocation
+    * calloc() - contiguous allocation
+    * realloc() - re-allocation
+    * free()
+* Comparision between malloc() and calloc()
+
+[**Day 7** - Structures and Unions ](<Day 6.md>)  
 
 * Structures: Definition, declaration, and accessing members
 * Array of Structures
@@ -47,23 +60,17 @@ Conditional Statements and Loops
 * Unions: Definition, declaration, and accessing members
 * Difference between Structures and Unions
 
-[**Day 7** - File Handling ](<Day 7.md>)  
+[**Day 8** - File Handling ](<Day 7.md>)  
 
 * File Operations: Opening, reading, writing, and closing files
 * File Modes: Text and binary modes
 * Error Handling in File Operations
 * Standard Library Functions for File Handling
 
-[**Day 8** - Pointers ](<Day 8.md>)  
-
-* Dynamic Memory Allocation: malloc, calloc, realloc, free
-* Pointer Arithmetic
-* Pointer to pointer
-
 [**Day 9** - Basic Data Structures (Stacks and Queues)](<Day 9.md>)  
 
-* Stacks: Implementation using arrays and linked lists, push and pop operations
-* Queues: Implementation using arrays and linked lists, enqueue and dequeue operations
+* Stacks: Implementation using arrays, push and pop operations
+* Queues: Implementation using arrays, enqueue and dequeue operations
 * Circular Queue: Implementation and operations
 
 [**Day 10** - Linked Lists](<Day 10.md>)  

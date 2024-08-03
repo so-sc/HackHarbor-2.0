@@ -43,7 +43,7 @@ Conditional Statements and Loops
 * Strings in C: String handling functions, array of characters, and standard library functions (strlen, strcpy, strcmp, etc.)
 * Pointers: Definition, declaration, usage and pointer arithmetic
 
-[**Day 6** - Dynamic Memory Allocation ](<Day 8.md>)  
+[**Day 6** - Dynamic Memory Allocation ](<Day 6.md>)  
 * Difference between static and dynamic memory allocation
 * Dynamic Memory Allocation Functions:
     * malloc() - memory allocation
@@ -52,7 +52,7 @@ Conditional Statements and Loops
     * free()
 * Comparision between malloc() and calloc()
 
-[**Day 7** - Structures and Unions ](<Day 6.md>)  
+[**Day 7** - Structures and Unions ](<Day 7.md>)  
 
 * Structures: Definition, declaration, and accessing members
 * Array of Structures
@@ -60,7 +60,7 @@ Conditional Statements and Loops
 * Unions: Definition, declaration, and accessing members
 * Difference between Structures and Unions
 
-[**Day 8** - File Handling ](<Day 7.md>)  
+[**Day 8** - File Handling ](<Day 8.md>)  
 
 * File Operations: Opening, reading, writing, and closing files
 * File Modes: Text and binary modes

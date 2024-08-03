@@ -67,13 +67,14 @@ Conditional Statements and Loops
 * Error Handling in File Operations
 * Standard Library Functions for File Handling
 
-[**Day 9** - Basic Data Structures (Stacks and Queues)](<Day 9.md>)  
+[**Day 9** - Data Structures ](<Day 9.md>)  
 
+*   Data Structures: Definiton, types and usage
 * Stacks: Implementation using arrays, push and pop operations
 * Queues: Implementation using arrays, enqueue and dequeue operations
 * Circular Queue: Implementation and operations
 
-[**Day 10** - Linked Lists](<Day 10.md>)  
+[**Day 10** - Data Structures (Linked Lists)](<Day 10.md>)  
 
 * Singly Linked Lists: Implementation, insertion, deletion, and traversal
 * Doubly Linked Lists: Implementation, insertion, deletion, and traversal

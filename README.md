@@ -18,11 +18,17 @@ Overview of C and it's applications
     * Assignment Operators
     * Type Casting and Type Conversion
 
-[**Day 2** - Control Structures](<Day 2.md>)  
+[**Day 2** - Control Structures and Types of Errors](<Day 2.md>)  
 
 Conditional Statements and Loops
 * Conditional Statements: if, else if, else, switch statements  
-* Loops: for, while, do-while loops
+* Loops: for, while, do-while loops  
+
+Errors - Types and definitions  
+* Syntax Errors
+* Semantic Errors
+* Logical Errors
+* Runtime Errors
 
 [**Day 3** - Functions ](<Day 3.md>)  
 

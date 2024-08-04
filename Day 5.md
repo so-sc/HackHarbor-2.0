@@ -1,5 +1,5 @@
 ---
-day: 3
+day: 5
 title: "Refresher to C programming"
 description: "Strings and Pointers"
 ---

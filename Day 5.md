@@ -1,7 +1,7 @@
 ---
 day: 5
-title: "Refresher to C programming"
-description: "Strings and Pointers"
+title: "Strings and Pointers"
+description: "Covering String declaration, String handling functions, Pointer definiton, declaration,usage and pointer arithmetic"
 ---
 
 # Day 5 - Strings and Pointers in C

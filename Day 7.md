@@ -1,7 +1,7 @@
 ---
 day: 7
-title: "Refresher to C programming"
-description: "Structures and unions"
+title: "Structures and unions"
+description: "Covering Structures and Unions, definiton,declaration, usage and their differences"
 ---
 
 

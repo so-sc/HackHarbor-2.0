@@ -1,7 +1,7 @@
 ---
 day: 3
-title: "Refresher to C programming"
-description: "Function Definition, Declaration, and Calling Functions"
+title: "Function Basics"
+description: "Covering Function Definition, Declaration, and Calling Functions"
 ---
 
 

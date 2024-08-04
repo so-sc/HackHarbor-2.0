@@ -1,7 +1,7 @@
 ---
 day: 9
-title: "Refresher to C programming"
-description: "Data Structures - Stacks,Queues and Circular Queues"
+title: "Data Structures"
+description: "Covering Stacks, Queues, Circular Queues, their definitons,operations and implementaion"
 ---
 # Day 9 - Data Structures
 

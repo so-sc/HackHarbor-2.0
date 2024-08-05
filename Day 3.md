@@ -137,3 +137,6 @@ int main() {
 3. [Compute Square and Cube](https://www.codechef.com/learn/course/c/LTCCL27/problems/CLFUNC01)
 4. [Calling a function witin a function](https://www.codechef.com/learn/course/c/LTCCL27/problems/CLFUNC08)
 5. [Nth Fibonacci number](https://www.naukri.com/code360/problems/nth-fibonacci-number_1115780)
+6. [Max of four](https://www.hackerrank.com/challenges/functions-in-c/problem?isFullScreen=true)
+7. [Gate CS-2000](https://www.geeksforgeeks.org/questions/gate-gate-cs-2000-question-43/)
+8. [ISRO-CS'08](https://www.geeksforgeeks.org/questions/isro-isro-cs-2008-question-37/)

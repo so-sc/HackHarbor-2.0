@@ -189,4 +189,5 @@ int main() {
 - **Structure:** All members can be initialized simultaneously at the time of declaration.
 - **Union:** Only the first member can be initialized at the time of declaration. Initializing other members requires assignment after declaration.
 ## Activity Problems  
+1. [TOO HIGH BOXES](https://www.hackerrank.com/challenges/too-high-boxes/problem?isFullScreen=true)
 <!-- TODO -->

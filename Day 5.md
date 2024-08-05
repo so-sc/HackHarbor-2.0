@@ -180,4 +180,5 @@ int main() {
 ```
 
 ## Activity Problems  
+1. [Guess the output](https://www.geeksforgeeks.org/questions/c-string-question-13/)
 <!-- TODO -->

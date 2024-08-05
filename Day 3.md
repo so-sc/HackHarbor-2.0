@@ -140,3 +140,5 @@ int main() {
 6. [Max of four](https://www.hackerrank.com/challenges/functions-in-c/problem?isFullScreen=true)
 7. [Gate CS-2000](https://www.geeksforgeeks.org/questions/gate-gate-cs-2000-question-43/)
 8. [ISRO-CS'08](https://www.geeksforgeeks.org/questions/isro-isro-cs-2008-question-37/)
+9. [Bitwise Operators](https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem?isFullScreen=true)
+10. [Pattern problem](https://www.hackerrank.com/challenges/printing-pattern-2/problem?isFullScreen=true)

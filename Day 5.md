@@ -181,4 +181,8 @@ int main() {
 
 ## Activity Problems  
 1. [Guess the output](https://www.geeksforgeeks.org/questions/c-string-question-13/)
+2. [Wordle](https://www.codechef.com/problems/WORDLE)
+3. [Hapy String](https://www.codechef.com/problems/HAPPYSTR)
+4. [Add Binary Strings](https://www.interviewbit.com/problems/add-binary-strings/)
+5. [Printing tokens](https://www.hackerrank.com/challenges/printing-tokens-/problem?isFullScreen=true )
 <!-- TODO -->

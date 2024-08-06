@@ -125,6 +125,27 @@ int main() {
 }
 ```
 
+### Variable Overiding
+If there exist 2 variables with the same name, one in local scope and the other in global scope. The local scope will always have higher priority.
+```c
+#include <stdio.h>
+int i = 30;                         // Global variable
+
+int main() {
+    printf("global version of i: %d\n", i);
+    for (int i = 0; i < 10; i++) {  // Local variable 1
+        printf("\tfor loop's version of i: %d\n", i);
+        if (i < 5) {
+            int i = 0;              // Local variable 2
+            printf("\t\tif blocks's version of i: %d\n", i);
+        }
+        printf("\tfor loop's version of i: %d\n", i);
+    }
+    printf("global version of i: %d\n", i);
+    return 0;
+}
+```
+
 ## Errors - Types and Definitions
 In programming, errors can be classified into several types. Understanding these types is crucial for effective debugging and error handling.
 

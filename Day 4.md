@@ -136,4 +136,14 @@ int main() {
 }
 ```
 
-## Activity Problems
+## Activity Problems[Find sum of elements in an array dynamically](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem?isFullScreen=true)
+1. [Reversing the array](https://www.hackerrank.com/challenges/reverse-array-c/problem?isFullScreen=true)
+2. [Remove duplicates from an array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+3. [Search insert position](https://leetcode.com/problems/search-insert-position/description/)
+4. [Plus one](https://leetcode.com/problems/plus-one/description/)
+5. [Player Height](https://www.codechef.com/problems/DOLL?tab=statement)
+6. [Sum of 2 least number in array](https://www.codewars.com/kata/558fc85d8fd1938afb000014)
+7. [Kth row of Pascal’s Triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/)
+8. [Positive-Negative](https://www.interviewbit.com/problems/positive-negative/)
+9. [MIN MAX in array](https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=2&category=Arrays&sortBy=submissions)
+10. [Starting Address](https://www.geeksforgeeks.org/questions/isro-isro-cs-2009-question-28/)

@@ -182,3 +182,12 @@ int result = x / y;
 ```
 
 ## Activity Problems
+1. [Even Sum](https://www.codechef.com/practice/course/c/LPCAS06/problems/CASS27?tab=solution)
+2. [Triangle Type](https://www.codechef.com/practice/course/c/LPCAS06/problems/CASS28?tab=solution)
+3. [Sum of Digits](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem?isFullScreen=true)
+4. [ISRO CS 2011](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d/raw/eba3d14a93993a81570dcad45727fa5950135674/ISRO%2520cs%25202011.md )
+5. [ISRO CS 2014](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d/raw/eba3d14a93993a81570dcad45727fa5950135674/ISRO%2520cs%25202014.md )
+6. [GATE CS 2012 ](https://gist.githubusercontent.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d/raw/eba3d14a93993a81570dcad45727fa5950135674/GATE%2520CS%25202012.md )
+7. [Compile Time Error](https://www.codechef.com/learn/course/c/LBCL07A/problems/PPSC28)
+8. [Print the Numbers in Words](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem?isFullScreen=true)
+9. [Even or Odd in a range](https://www.hackerrank.com/challenges/for-loop-in-c/problem?isFullScreen=true)

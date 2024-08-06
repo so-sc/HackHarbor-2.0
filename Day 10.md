@@ -1,5 +1,5 @@
 ---
-day: 9
+day: 10
 title: "Linked Lists"
 description: "Covering Singly Linked Lists, Doubly Linked Lists, and Circular Linked Lists"
 ---
@@ -8,7 +8,7 @@ description: "Covering Singly Linked Lists, Doubly Linked Lists, and Circular Li
 
 ## Singly Linked Lists
 
-![SLL](https://miro.medium.com/v2/resize:fit:953/1*iiEWrP2IznA6HbmuIdK0lQ.png "Singly Linked Lists")
+![SLL](https://media.geeksforgeeks.org/wp-content/uploads/20240726165319/Singly-Linked-List.webp "Singly Linked Lists")
 
 ### Implementation
 A singly linked list consists of nodes, each containing data and a pointer to the next node.
@@ -48,17 +48,17 @@ struct Node* deleteFromBeginning(struct Node* head) {
 Traversal involves visiting each node in the list.
 ```c
 void traverse(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d ", current->data);
-        current = current->next;
+    struct Node* cursor = head;
+    while (cursor != NULL) {
+        printf("%d ", cursor->data);
+        cursor = cursor->next;
     }
 }
 ```
 
 ## Doubly Linked Lists
 
-![DLL](https://www.sanfoundry.com/wp-content/uploads/2013/05/circular-doubly-linked-list-example.png "Doubly Linked Lists")
+![DLL](https://res.cloudinary.com/practicaldev/image/fetch/s--QTk9XbRm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/kvnpce96zqdxu73hp6oe.png "Doubly Linked Lists")
 
 ### Implementation
 A doubly linked list has nodes with pointers to both the next and previous nodes.
@@ -102,18 +102,18 @@ struct Node* deleteFromBeginning(struct Node* head) {
 Traversal can be done in both forward and backward directions.
 ```c
 void traverseForward(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d ", current->data);
-        current = current->next;
+    struct Node* cursor = head;
+    while (cursor != NULL) {
+        printf("%d ", cursor->data);
+        cursor = cursor->next;
     }
 }
 
 void traverseBackward(struct Node* tail) {
-    struct Node* current = tail;
-    while (current != NULL) {
-        printf("%d ", current->data);
-        current = current->prev;
+    struct Node* cursor = tail;
+    while (cursor != NULL) {
+        printf("%d ", cursor->data);
+        cursor = cursor->prev;
     }
 }
 ```
@@ -143,11 +143,11 @@ struct Node* insertAtBeginning(struct Node* head, int data) {
         return newNode;
     }
     newNode->next = head;
-    struct Node* current = head;
-    while (current->next != head) {
-        current = current->next;
+    struct Node* cursor = head;
+    while (cursor->next != head) {
+        cursor = cursor->next;
     }
-    current->next = newNode;
+    cursor->next = newNode;
     return newNode;
 }
 ```
@@ -162,13 +162,13 @@ struct Node* deleteFromBeginning(struct Node* head) {
         free(head);
         return NULL;
     }
-    struct Node* current = head;
-    while (current->next != head) {
-        current = current->next;
+    struct Node* cursor = head;
+    while (cursor->next != head) {
+        cursor = cursor->next;
     }
     struct Node* temp = head;
     head = head->next;
-    current->next = head;
+    cursor->next = head;
     free(temp);
     return head;
 }
@@ -179,11 +179,11 @@ Traversal in a circular linked list requires stopping when we reach the first no
 ```c
 void traverse(struct Node* head) {
     if (head == NULL) return;
-    struct Node* current = head;
+    struct Node* cursor = head;
     do {
-        printf("%d ", current->data);
-        current = current->next;
-    } while (current != head);
+        printf("%d ", cursor->data);
+        cursor = cursor->next;
+    } while (cursor != head);
 }
 ```
 
@@ -209,10 +209,10 @@ int main() {
     head->next = createNode(2);
     head->next->next = createNode(3);
     
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d ", current->data);
-        current = current->next;
+    struct Node* cursor = head;
+    while (cursor != NULL) {
+        printf("%d ", cursor->data);
+        cursor = cursor->next;
     }
     
     return 0;

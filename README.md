@@ -92,7 +92,7 @@ Errors - Types and definitions
 - [x] Update the `Readme.md` file with the syllabus and a brief about the course, and title pointing to the page.
 - [x] Create individual page for each day for eg.: `Day 1 - Refresher to C Programming`, and add the content inside the page.
 - [x] Add code snippets, and important definitions or concepts, so that all the mentors can refer it.
-- [ ] Add the GFG, Hackerrank, LeetCode, etc. questions at the end of the page, with redirect link to the question.
+- [x] Add the GFG, Hackerrank, LeetCode, etc. questions at the end of the page, with redirect link to the question.
 - [ ] Finally remove this TodoList.
 
 <!-- If there are more tasks you can update it here. -->

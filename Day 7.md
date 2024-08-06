@@ -190,4 +190,9 @@ int main() {
 - **Union:** Only the first member can be initialized at the time of declaration. Initializing other members requires assignment after declaration.
 ## Activity Problems  
 1. [TOO HIGH BOXES](https://www.hackerrank.com/challenges/too-high-boxes/problem?isFullScreen=true)
+2. [Small-large triangle](https://www.hackerrank.com/challenges/small-triangles-large-triangles/problem)
+3. [Guess the Output -I](https://www.geeksforgeeks.org/questions/c-structure-union-question-1/)
+4. [Guess the Output -II](https://www.geeksforgeeks.org/questions/c-c-quiz-112-question-1/)
+5. [Guess the Output - III](https://www.geeksforgeeks.org/questions/c-c-quiz-112-question-3/)
+6. [Guess the Output -IV](https://www.geeksforgeeks.org/questions/c-c-quiz-112-question-4/)
 <!-- TODO -->

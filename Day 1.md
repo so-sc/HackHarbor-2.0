@@ -237,3 +237,8 @@ printf("Result: %.2f\n", result);  // Output: Result: 2.50
 3. [Sum and Diff of two numbers](https://www.hackerrank.com/challenges/sum-numbers-c/problem)
 4. [Division Anomaly](https://www.codechef.com/practice/course/c/LPCAS01/problems/LCAS02)
 5. [Modulo Game](https://www.codechef.com/practice/course/c/LPCAS01/problems/LCAS08)
+6. [Increment Operator](https://www.geeksforgeeks.org/questions/c-operators-question-24/)
+7. [Temperature Converter](https://www.codechef.com/practice/course/c/LPCAS03/problems/LCAS30B)
+8. [Assignment Operator](https://www.codechef.com/learn/course/c/LBCL07A/problems/PPSC29)
+8. [Total prize money (debug the code)](https://www.codechef.com/learn/course/c-beginner-v2-p1/BC01BC05_V2/problems/BMCP10)
+10. [Ternary Operator](https://www.codechef.com/learn/course/c/LBCL07A/problems/PPSC27D)

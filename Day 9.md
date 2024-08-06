@@ -194,4 +194,6 @@ int main() {
 - **Enqueue:** Adds an element to the rear of the circular queue.
 - **Dequeue:** Removes an element from the front of the circular queue.
 ## Activity Problems  
-<!-- TODO -->
+1. [Valid Parenthesis](https://www.codechef.com/problems/DIGARR)
+2. [First unique character](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+3. [Removing stars from a string](https://leetcode.com/problems/removing-stars-from-a-string/)

@@ -180,4 +180,13 @@ int main() {
 ```
 
 ## Activity Problems  
-<!-- TODO -->
+1. [Guess the output](https://www.geeksforgeeks.org/questions/c-string-question-13/)
+2. [Wordle](https://www.codechef.com/problems/WORDLE)
+3. [Simple Pointer Question](https://www.hackerrank.com/challenges/pointer-in-c/problem?isFullScreen=true)
+4. [Add Binary Strings](https://www.interviewbit.com/problems/add-binary-strings/)
+5. [Printing tokens](https://www.hackerrank.com/challenges/printing-tokens-/problem?isFullScreen=true )
+6. [The Block game](https://www.codechef.com/problems/PALL01 )
+7. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+8. [Process the String](https://www.codechef.com/problems/KOL15A)
+9. [Easy Pronunciation ](https://www.codechef.com/problems/EZSPEAK)
+10. [Rearrange digits](https://www.codechef.com/problems/DIGARR)

@@ -84,7 +84,8 @@ Errors - Types and definitions
 
 * Singly Linked Lists: Implementation, insertion, deletion, and traversal
 * Doubly Linked Lists: Implementation, insertion, deletion, and traversal
-* Circular Linked Lists: Implementation, insertion, deletion, and traversal
+* Circular Singly Linked Lists: Implementation, insertion, deletion, and traversal
+* Circular Doubly Linked Lists: Implementation, insertion, deletion, and traversal
 
 ## Todo
 

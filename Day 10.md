@@ -118,9 +118,9 @@ void traverseBackward(struct Node* tail) {
 }
 ```
 
-## Circular Linked Lists
+## Singly Linked Circular List:
 
-![CLL](https://examradar.com/wp-content/uploads/2016/10/Figure-3.6.1.-Circular-Single-Linked-List.png "Circular Linked Lists")
+![CSLL](https://examradar.com/wp-content/uploads/2016/10/Figure-3.6.1.-Circular-Single-Linked-List.png "Circular Linked Lists")
 
 ### Implementation
 A circular linked list connects the last node back to the first node.
@@ -187,7 +187,7 @@ void traverse(struct Node* head) {
 }
 ```
 
-## Example
+### Example
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -216,6 +216,77 @@ int main() {
     }
     
     return 0;
+}
+```
+
+## Doubly Linked Circular List:
+![CDLL](https://www.sanfoundry.com/wp-content/uploads/2013/05/circular-doubly-linked-list-example.png "Doubly Linked Lists")
+
+### Implementation
+```c
+struct Node {
+    struct Node* prev
+    int data;
+    struct Node* next;
+};
+```
+
+### Insertion
+Unlike in circular singly linked list, we don't have to traverse the whole list in order to get last position.  
+Just do `lastNode = head->prev;`
+```c
+// Insert at the beginning
+struct Node* insertAtBeginning(struct Node* head, int data) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
+    if (head == NULL) {
+        newNode->prev = newNode->next = newNode;
+        return newNode;
+    }
+    newNode->next = head;
+    newNode->prev = head->prev;
+    return newNode;
+}
+```
+
+### Deletion
+We can use that same advantage here as well.
+```c
+// Delete from the beginning
+struct Node* deleteFromBeginning(struct Node* head) {
+    if (head == NULL) return NULL;
+    if (head->next == head) {
+        free(head);
+        return NULL;
+    }
+    struct Node* temp = head;
+    head->prev->next = head->next;
+    head->next->prev = head->prev;
+    head = head->next;
+    free(temp);
+    return head;
+}
+```
+
+### Traversal
+Traversal in a circular doubly linked list is the same as circular singly linked list. Except you can now also traverse in reverse.
+```c
+void traverse(struct Node* head) {
+    if (head == NULL) return;
+    struct Node* cursor = head;
+    do {
+        printf("%d ", cursor->data);
+        cursor = cursor->next;
+    } while (cursor != head);
+}
+
+void traverseReverse(struct Node* head) {
+    if (head == NULL) return;
+    struct Node* cursor = head;
+    do {
+        printf("%d ", cursor->data);
+        cursor = cursor->prev;
+    } while (cursor != head);
 }
 ```
 

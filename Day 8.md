@@ -9,7 +9,7 @@ description: "Covering File Operations, File Modes, Error Handling, and Standard
 ## File Operations
 
 ### Opening a File
-A file can be opened using the `fopen` function, which returns a file pointer.
+A file can be opened using the `fopen()` function, which returns a file pointer.
 ```c
 FILE* fp = fopen("example.txt", "r");
 ```
@@ -29,7 +29,7 @@ fwrite(data, sizeof(char), strlen(data), fp);
 ```
 
 ### Closing a File
-A file can be closed using the fclose function.
+A file can be closed using the fclose() function.
 ```c
 fclose(fp);
 ```
@@ -68,45 +68,70 @@ if (fopen("example.txt", "r") == NULL) {
 
 ## Standard Library Functions for File Handling
 
-### fopen
-Opens a file and returns a file pointer.
+### fopen()
+Opens a file and returns a file pointer.  
+**Syntax:** fopen(path, mode);
+
+The different modes available:
+| Mode | Description |
+| --- | --- |
+| r | Only read. |
+| w | Only write. If the file does not exist, it will be created. |
+| a | Only append. If the file does not exist, it will be created. |
+| r+ | Read and write. The file pointer is positioned at the beginning of the file. |
+| w+ | Read and write. The file pointer is positioned at the beginning of the file. |
+| a+ | Read and append. The file pointer is positioned at the end of the file. |
 ```c
 FILE* fp = fopen("example.txt", "r");
 ```
 
-### fclose
+### fclose()
 Closes a file.
 ```c
 fclose(fp);
 ```
 
-### fread
-Reads data from a file.
+### fread()
+Reads data from a file.  
+**Syntax**: fread(dest_var, size_of_char, no_of_characters, file_pointer);
 ```c
 char buffer[100];
 fread(buffer, sizeof(char), 100, fp);
 ```
 
-### fwrite
-Writes data to a file.
+### fwrite()
+Writes data to a file.  
+**Syntax**: fwrite(src_var, size_of_char, no_of_characters, file_pointer);
 ```c
 char* data = "Hello, World!";
 fwrite(data, sizeof(char), strlen(data), fp);
 ```
 
-### fseek
-Moves the file pointer to a specified location.
+### fseek()
+Moves the file pointer to a specified location.  
+**Syntax**: fwrite(file_pointer, offset_amount, position_code);
+
+For position_code, we have 3 macros:
+| position_code | Description |
+| --- | --- |
+| SEEK_SET | Beginning of the file |
+| SEEK_CUR | Current position in the file |
+| SEEK_END | End of the file |
 ```c
-fseek(fp, 10, SEEK_SET);
+fseek(fp, 0, SEEK_SET);     // Beginning of file
+fseek(fp, 10, SEEK_SET);    // 10 positions after beginning
+fseek(fp, 40, SEEK_CUR);    // 10 positions after current position (10+40=50)
+fseek(fp, 0, SEEK_END);     // Ending of file
+fseek(fp, -5, SEEK_END);    // 5 positions before ending of file
 ```
 
-### ftell
+### ftell()
 Returns the current position of the file pointer.
 ```c
 long pos = ftell(fp);
 ```
 
-### rewind
+### rewind()
 Moves the file pointer to the beginning of the file.
 ```c
 rewind(fp);

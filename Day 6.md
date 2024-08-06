@@ -23,43 +23,43 @@ description: "Covering Dynamic Memory Allocation, Pointer Arithmetic, and Pointe
 ### Introduction
 Dynamic memory allocation is a technique used to allocate memory at runtime, rather than at compile time.
 
-### malloc
-`malloc` is a function that allocates a block of memory of a specified size.
+### malloc()
+`malloc()` is a function that allocates a block of memory of a specified size.
 ```c
 int* ptr = malloc(sizeof(int));
 ```
 
-### calloc
-calloc is a function that allocates a block of memory of a specified size and initializes all bits to zero.
+### calloc()
+`calloc()` is a function that allocates a block of memory of a specified size and initializes all bits to zero.
 ```c
 int* ptr = calloc(10, sizeof(int));
 ```
 
-### realloc
-realloc is a function that changes the size of a block of memory previously allocated by malloc or calloc.
+### realloc()
+`realloc()` is a function that changes the size of a block of memory previously allocated by malloc() or calloc().
 ```c
 int* ptr = malloc(sizeof(int));
 ptr = realloc(ptr, 2 * sizeof(int));
 ```
 
-### free
-free is a function that releases a block of memory previously allocated by malloc, calloc, or realloc.
+### free()
+`free()` is a function that releases a block of memory previously allocated by malloc(), calloc(), or realloc().
 ```c
 int* ptr = malloc(sizeof(int));
 free(ptr);
 ```
 
-## Difference between malloc and calloc
+## Difference between malloc() and calloc()
 
 ### Similarities:
 
-- **Both** malloc and calloc are used to dynamically allocate memory in C.
+- **Both** malloc() and calloc() are used to dynamically allocate memory in C.
 - **Both** functions return a void pointer to the beginning of the allocated memory block.
 - **Both** functions can be used to allocate memory for arrays, structures, and other data types.
 
 ### Differences:
 
-| | malloc | calloc |
+| | malloc() | calloc() |
 | --- | --- | --- |
 | **Initialization** | Does not initialize the allocated memory to any specific value| Initializes the allocated memory to zero. |
 | **Number of arguments** | Takes one argument, the size of the memory block to be allocated | Takes two arguments, the number of elements and the size of each element. |
@@ -69,11 +69,11 @@ free(ptr);
 
 ### When to use each:
 
-#### Use malloc when:
+#### Use malloc() when:
 - You need to allocate memory for a single block of data.
 - You don't need to initialize the memory to zero.
 - You want faster allocation.
-#### Use calloc when:
+#### Use calloc() when:
 - You need to allocate memory for an array of data.
 - You need to initialize the memory to zero.
 - You want to ensure that the memory is initialized to a specific value.
@@ -84,7 +84,7 @@ free(ptr);
 #include <stdlib.h>
 
 int main() {
-    // Using malloc
+    // Using malloc()
     int* ptr1 = malloc(sizeof(int));
     if (ptr1 == NULL) {
         printf("Memory allocation failed\n");
@@ -93,7 +93,7 @@ int main() {
     *ptr1 = 10;
     printf("Value of ptr1: %d\n", *ptr1);
 
-    // Using calloc
+    // Using calloc()
     int* ptr2 = calloc(1, sizeof(int));
     if (ptr2 == NULL) {
         printf("Memory allocation failed\n");
@@ -106,6 +106,6 @@ int main() {
     return 0;
 }
 ```
-In summary, malloc and calloc are both used for dynamic memory allocation, but calloc initializes the memory to zero and is generally used for allocating arrays of data, while malloc is faster and used for allocating single blocks of data.
+In summary, malloc() and calloc are both used for dynamic memory allocation, but calloc initializes the memory to zero and is generally used for allocating arrays of data, while malloc() is faster and used for allocating single blocks of data.
 
 ## Activity Problems

@@ -113,5 +113,4 @@ In summary, malloc() and calloc() are both used for dynamic memory allocation, b
 2. [Give the most appropriate pair](https://www.geeksforgeeks.org/questions/c-dynamic-memory-allocation-question-1/)
 3. [Guess Output 1](https://www.geeksforgeeks.org/questions/c-dynamic-memory-allocation-question-3/)
 4. [Guess Output 2](https://www.geeksforgeeks.org/questions/c-dynamic-memory-allocation-question-2/)
-5. [Reverse Nodes in K group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-6. [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)
+5. [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)

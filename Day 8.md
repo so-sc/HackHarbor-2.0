@@ -15,21 +15,25 @@ FILE* fp = fopen("example.txt", "r");
 ```
 
 ### Reading from a File
-Data can be read from a file using the fread function.
+Data can be read from a file using the `fread()` or `fscanf()` functions.
 ```c
 char buffer[100];
 fread(buffer, sizeof(char), 100, fp);
+// OR
+fscanf(fp, "%s", buffer);
 ```
 
 ### Writing to a File
-Data can be written to a file using the fwrite function.
+Data can be written to a file using the `fwrite()` or `fprintf()` functions.
 ```c
 char* data = "Hello, World!";
 fwrite(data, sizeof(char), strlen(data), fp);
+// OR
+fprintf(fp, "%s", data);
 ```
 
 ### Closing a File
-A file can be closed using the fclose() function.
+A file can be closed using the `fclose()` function.
 ```c
 fclose(fp);
 ```
@@ -107,6 +111,24 @@ char* data = "Hello, World!";
 fwrite(data, sizeof(char), strlen(data), fp);
 ```
 
+### fscanf()
+Reads formatted data from a file.  
+**Syntax**: fscanf(file_pointer, format_string, var1, var2, ...);
+```c
+char* name;
+int score;
+fscanf(fp, "%s %d", name, &score);
+```
+
+### fprintf()
+Writes formatted data to a file.  
+**Syntax**: fprintf(file_pointer, format_string, var1, var2, ...);
+```c
+char* name = "Slim Shady";
+int score = 10;
+fprintf(fp, "%s: %d\n", name, score);
+```
+
 ### fseek()
 Moves the file pointer to a specified location.  
 **Syntax**: fwrite(file_pointer, offset_amount, position_code);
@@ -127,6 +149,7 @@ fseek(fp, -5, SEEK_END);    // 5 positions before ending of file
 
 ### ftell()
 Returns the current position of the file pointer.
+Comes in handy when you have to check number of character's in the file.
 ```c
 long pos = ftell(fp);
 ```
@@ -155,7 +178,7 @@ int main() {
 ```
 
 ## Activity Problems
-1. [MCQ 1](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d/raw/54078b048e369fa7e2560158296458f553ebc31c/Day8_1.md)
-2. [MCQ 2](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d/raw/54078b048e369fa7e2560158296458f553ebc31c/Day8_2.md)
-3. [MCQ 3](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d/raw/54078b048e369fa7e2560158296458f553ebc31c/Day8_3.md)
+1. [MCQ 1](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d#file-day8_1-md)
+2. [MCQ 2](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d#file-day8_2-md)
+3. [MCQ 3](https://gist.github.com/galaxygamerman/b9bb496865026f9cebdea9a56f3f992d#file-day8_3-md)
 4. Try to re-write some of your previously done programs to write their outputs into text files, instead of the terminal.

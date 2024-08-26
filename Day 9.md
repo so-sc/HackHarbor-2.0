@@ -197,7 +197,7 @@ int main() {
 1. [Valid Parenthesis](https://www.codechef.com/practice/course/stacks-and-queues/STAQUEF/problems/PREP59)
 2. [First unique character](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
 3. [Removing stars from a string](https://leetcode.com/problems/removing-stars-from-a-string/)
-4. [Equal Stacks](https://www.hackerrank.com/challenges/equal-stacks/problem?isFullScreen=true)
+4. [Equal Stacks](https://gist.github.com/techshetty/8fa25256addb0499d9215fc1120bd3a1)
 5. [Nearest Smaller number](https://www.interviewbit.com/problems/nearest-smaller-element/)
 6. [Stone Pile](https://www.codechef.com/practice/course/stacks-and-queues/STAQUEF/problems/STONE_PILE)
 

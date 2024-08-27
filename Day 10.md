@@ -289,17 +289,3 @@ void traverseReverse(struct Node* head) {
     } while (cursor != head);
 }
 ```
-
-## Activity Problems
-1. [SUBTRACT](https://www.interviewbit.com/problems/subtract/)
-2. [ADD TWO NUMBERS AS LL](https://www.interviewbit.com/problems/add-two-numbers-as-lists/)
-3. [CONVERT BINARY TO LINKED LIST](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/)
-4. [REMOVE DUPLICATES FROM SORTED LIST](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
-5. [INSERTION SORT USING LIST](https://leetcode.com/problems/insertion-sort-list/description/)
-6. [COMPARE THE LINKED LIST](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem?isFullScreen=true)
-7. [PRINT THE LIST IN REVERSE](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?sFullScreen=true)
-8. [REVERSE A DOUBLY LINKED LIST](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true)
-9. [INSERT A NODE AT TAIL OF THE LINKED LIST](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem?isFullScreen=true)
-10. [INSERT A NODE AT HEAD OF THE LINKED LIST](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true)
-11. [INSERT AT A SPECIFIC NODE IN A LINKED LIST](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true)
-12. [DELETE A NODE](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true)

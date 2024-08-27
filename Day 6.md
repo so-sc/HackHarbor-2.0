@@ -107,10 +107,3 @@ int main() {
 }
 ```
 In summary, malloc() and calloc() are both used for dynamic memory allocation, but calloc initializes the memory to zero and is generally used for allocating arrays of data, while malloc() is faster and used for allocating single blocks of data.
-
-## Activity Problems
-1. [Dynamic array](https://www.hackerrank.com/challenges/dynamic-array/problem)
-2. [Give the most appropriate pair](https://www.geeksforgeeks.org/questions/c-dynamic-memory-allocation-question-1/)
-3. [Guess Output 1](https://www.geeksforgeeks.org/questions/c-dynamic-memory-allocation-question-3/)
-4. [Guess Output 2](https://www.geeksforgeeks.org/questions/c-dynamic-memory-allocation-question-2/)
-5. [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)

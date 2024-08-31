@@ -4,7 +4,6 @@ title: "Function Basics"
 description: "Covering Function Definition, Declaration, and Calling Functions"
 ---
 
-
 ## Function Basics: Definition, Declaration, and Calling Functions
 
 ### Definition
@@ -36,7 +35,8 @@ int add(int a, int b);
 
 int main() {
     int sum = add(5, 3);
-    printf("Sum: %d\n", sum);
+    printf("Sum: %d
+", sum);
     return 0;
 }
 
@@ -64,7 +64,8 @@ int multiply(int x, int y) {
 
 int main() {
     int result = multiply(4, 5);
-    printf("Result: %d\n", result);
+    printf("Result: %d
+", result);
     return 0;
 }
 ```
@@ -130,3 +131,73 @@ int main() {
 
 **Disadvantages:**
 - Can lead to excessive memory usage and stack overflow if not implemented correctly.
+
+---
+
+## Time and Space Complexity with Efficiency Classes and Notations
+
+### 1. Time Complexity
+Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the length of the input. It is typically expressed using Big O notation, which describes the upper bound of the algorithm's growth rate.
+
+#### Efficiency Classes:
+- **O(1) - Constant Time:** The algorithm takes a constant amount of time, regardless of the input size.
+- **O(log n) - Logarithmic Time:** The algorithm's time complexity grows logarithmically as the input size increases.
+- **O(n) - Linear Time:** The algorithm's time complexity grows linearly with the input size.
+- **O(n log n) - Log-Linear Time:** The algorithm's time complexity grows in proportion to n log n.
+- **O(n^2) - Quadratic Time:** The algorithm's time complexity grows quadratically as the input size increases.
+- **O(2^n) - Exponential Time:** The algorithm's time complexity doubles with each additional input element.
+- **O(n!) - Factorial Time:** The algorithm's time complexity grows factorially, which is highly inefficient for large inputs.
+
+#### Example:
+Consider a linear search algorithm:
+```c
+#include<stdio.h>
+
+int linearSearch(int arr[], int n, int x) {
+    for(int i = 0; i < n; i++) {
+        if(arr[i] == x) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+int main() {
+    int arr[] = {2, 4, 0, 1, 9};
+    int x = 1;
+    int n = sizeof(arr)/sizeof(arr[0]);
+    int result = linearSearch(arr, n, x);
+    printf("Element found at index: %d\n", result);
+    return 0;
+}
+```
+In this example, the time complexity of the linear search is **O(n)** because, in the worst case, it may need to check each element in the array.
+
+### 2. Space Complexity
+Space complexity is a measure of the amount of memory an algorithm uses in relation to the size of the input data. Like time complexity, it is also expressed using Big O notation.
+
+#### Efficiency Classes:
+- **O(1) - Constant Space:** The algorithm uses a constant amount of space, regardless of the input size.
+- **O(n) - Linear Space:** The algorithm's space usage grows linearly with the input size.
+- **O(log n) - Logarithmic Space:** The algorithm's space usage grows logarithmically as the input size increases.
+- **O(n^2) - Quadratic Space:** The algorithm's space usage grows quadratically with the input size.
+
+#### Example:
+Consider an example of calculating the Fibonacci sequence using recursion:
+```c
+#include<stdio.h>
+
+int fibonacci(int n) {
+    if(n <= 1) {
+        return n;
+    }
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+int main() {
+    int n = 5;
+    printf("Fibonacci number is: %d\n", fibonacci(n));
+    return 0;
+}
+```
+In this example, the space complexity is **O(n)** due to the depth of the recursion stack.
